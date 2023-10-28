@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'http://fonts.googleapis.com/css?family=Inter:400,500,600';
+
+* {
+  font-family: 'Inter', sans-serif !important;
+}
