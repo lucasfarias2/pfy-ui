@@ -6,22 +6,14 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "outDir": "dist",
-
-    /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "react-jsx",
     "declaration": true,
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
+  "exclude": ["src/stories"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
