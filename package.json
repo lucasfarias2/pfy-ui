@@ -1,7 +1,7 @@
 {
   "name": "@packlify/ui",
   "private": false,
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,7 @@
     "dev": "vite",
     "build:types": "tsc --emitDeclarationOnly",
     "build": "vite build && npm run build:types",
+    "prepublishOnly": "npm run build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
