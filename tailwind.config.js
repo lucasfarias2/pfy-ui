@@ -5,5 +5,5 @@ export default {
     extend: {},
   },
   plugins: [],
-  purge: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
 };
